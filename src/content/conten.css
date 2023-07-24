@@ -1,0 +1,8 @@
+.box-item:last-child{
+    width: 100% ;
+    text-align: left;
+}
+.content{
+    padding: 0.75rem 1rem;
+    border: 2px solid lightblue;
+}

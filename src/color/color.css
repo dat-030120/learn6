@@ -1,0 +1,36 @@
+.box-item{
+    width: calc((100% - 100px)/2);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.penal-heading{
+    padding: 0.75rem 1rem;
+    font-size: 18px;
+    text-align: left;
+    color: balck;
+}
+.penal-body{
+   border: 1.5px solid rgb(145, 145, 236);
+   padding: 1rem 0.75rem;    
+   text-align: left;
+}
+.box-item:first-child .penal-heading{
+    background-color: rgb(127, 127, 230);
+    margin: 0;
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+    color: #ffff;
+}
+hr{
+    border: 1px solid;
+    color: blue;
+}
+span{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.active {
+    border: 2px solid;
+}
